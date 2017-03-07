@@ -1,10 +1,10 @@
 var express = require('express');
 var mongoose = require('mongoose');
-
+var request = require('request');
+var cheerio = require('cheerio');
 var app = express();
 
 // connect to mongo database named "shortly"
-mongoose.connect('mongodb://localhost/shortly');
 
 // configure our server with all the middleware and routing
 require('./config/middleware.js')(app, express);
