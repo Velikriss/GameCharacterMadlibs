@@ -1,5 +1,12 @@
-<div id='search'>
+<div id='search' ng-controller='SearchController'>
 <h1>SEARCH</h1>
-<h2>{{title}}</h2>
 <input type='text' ng-model='search' placeholder='Enter a game title. . .' /> 
-<button ng-click='searchForGame(search)'> Search! </button>
+<button ng-click='searchForGame(search)'> Search! </button> 
+<h2>{{game.title}}</h2> <img src={{game.image}} width =250px/>
+
+
+<ul> 
+  <li ng-repeat='character in characters'> 
+    <h4> {{character.name}} </h4>
+  </li>
+</ul>
