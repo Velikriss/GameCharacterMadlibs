@@ -27,6 +27,7 @@
     "fuzzyset.js": "0.0.1",
     "giantbomb-api": "^0.2.0",
     "jwt-simple": "^0.5.0",
+    "madlibs": "^0.0.0",
     "mongoose": "^4.1.0",
     "morgan": "^1.1.1",
     "q": "^1.4.1",
